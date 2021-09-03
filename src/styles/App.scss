@@ -1,0 +1,36 @@
+body{
+  background: #24282F;
+}
+
+.character-card{
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  .bg-overlay{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+  }
+  .card-details-overlay{
+    background: rgba(0, 0, 0, .5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 990;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .character-card-details{
+      
+    }
+  }
+}
